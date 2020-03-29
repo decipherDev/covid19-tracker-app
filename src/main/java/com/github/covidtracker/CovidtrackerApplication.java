@@ -1,5 +1,5 @@
 
-package com.decipherDev.covidtracker;
+package com.github.covidtracker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.decipherDev.covidtracker;
+package com.github.covidtracker.service;
 
 public interface SlackNotify {
 	public void notifySlack(String str);

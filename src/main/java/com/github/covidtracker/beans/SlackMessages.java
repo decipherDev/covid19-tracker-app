@@ -1,4 +1,4 @@
-package com.decipherDev.covidtracker.beans;
+package com.github.covidtracker.beans;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,5 +14,4 @@ public class SlackMessages {
 	public String toString() {
 		return "{" + "\"" + "text" + "\"" + ":" + "\"" + text + "\"}";
 	}
-	
 }

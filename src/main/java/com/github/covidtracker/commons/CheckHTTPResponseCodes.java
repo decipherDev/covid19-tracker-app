@@ -1,4 +1,4 @@
-package com.decipherDev.covidtracker.commons;
+package com.github.covidtracker.commons;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

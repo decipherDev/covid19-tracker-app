@@ -1,4 +1,4 @@
-package com.decipherDev.covidtracker.beans;
+package com.github.covidtracker.beans;
 
 import lombok.Data;
 
@@ -29,10 +29,10 @@ public class StateWiseDistribution {
 		StateWiseDistribution state = new StateWiseDistribution();
 		int count=0;
 		state.setName(rowData.length > 6 ? rowData[++count]+" "+rowData[++count] : rowData[++count]); 
-		state.setIndianNational(Integer.parseInt(rowData[++count]));
-		state.setForeignNational(Integer.parseInt(rowData[++count]));
-		state.setCured(Integer.parseInt(rowData[++count]));
-		state.setDeath(Integer.parseInt(rowData[++count]));
+		state.setIndianNational(Integer.parseInt(rowData[++count].replace("#", "")));
+		state.setForeignNational(Integer.parseInt(rowData[++count].replace("#", "")));
+		state.setCured(Integer.parseInt(rowData[++count].replace("#", "")));
+		state.setDeath(Integer.parseInt(rowData[++count].replace("#", "")));
 		
 		return state;
 	}

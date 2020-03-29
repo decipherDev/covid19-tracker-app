@@ -1,4 +1,4 @@
-package com.decipherDev.covidtracker.commons;
+package com.github.covidtracker.commons;
 
 public class CovidTrackException extends RuntimeException {
 	private static final long serialVersionUID = 8704302792182414166L;
